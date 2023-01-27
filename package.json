@@ -1,0 +1,43 @@
+{
+  "name": "youchoose",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.4",
+    "@reduxjs/toolkit": "^1.9.0",
+    "classnames": "^2.3.2",
+    "firebase": "^9.12.1",
+    "framer-motion": "^7.6.5",
+    "fuse.js": "^6.6.2",
+    "mapbox-gl": "1.13.1",
+    "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.0.19",
+    "react-modal-sheet": "^1.8.1",
+    "react-redux": "^8.0.5",
+    "reactfire": "^4.2.2",
+    "recharts": "^2.1.16",
+    "redux": "^4.2.0",
+    "vite-plugin-svgr": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-cli": "^10.0.0",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.3",
+    "vite": "^3.1.0"
+  }
+}

@@ -1,0 +1,34 @@
+.yc-map {
+  &__popup {
+    .mapboxgl-popup-content {
+      padding: 0;
+    }
+  }
+
+  &__marker {
+    &--occupancy-full {
+      .marker--fill {
+        fill: #f8d6da;
+      }
+      .marker--inner,
+      .marker--outer {
+        fill: #db3348;
+      }
+    }
+
+    &--occupancy-medium {
+      .marker--fill {
+        fill: #fef0d3;
+      }
+      .marker--inner,
+      .marker--outer {
+        fill: #fab525;
+      }
+    }
+  }
+}
+
+.mapboxgl-ctrl-bottom-left,
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
